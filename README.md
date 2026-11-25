@@ -23,32 +23,6 @@ working order.
 ## I have not made these PCB items available yet.
 ![Photo of the Layout and Trace Work](Images/Pocket_2.png)
 
-# Board Images
-## Board Only
-![BOARD ONLY](Images/BoardTop.png)
-
-## Board Components - Preview
-![BOARD_PARTS](Images/BoardTopComponentes.png)
-
-# Hardware instructions
-## Board manufacturing
-### Board version 1.1
-![Board manufacturing](Images/board1.jpg)
-### Soldering resistors, transistor and rc output headers 
-![Board manufacturing](Images/board2.jpg)
-### Soldering output headers 
-![Board manufacturing](Images/board3.jpg)
-### Soldering Pocketbeagle 2 headers
-![Board manufacturing](Images/board4.jpg)
-### Soldering Leds
-![Board manufacturing](Images/board5.jpg)
-### Preparing the IMU - using double sided tape
-![Board manufacturing](Images/imu1.jpg)
-### Soldering the IMU
-![Board manufacturing](Images/board6.jpg)
-### Finished
-![Board manufacturing](Images/board7.jpg)
-
 ## Parts
 	- 1 IMU [eight pin with BMP388 and ICM20948]
 	- 4 Resistors 1KΩ
@@ -86,3 +60,5 @@ For the USB OTG, you are free to use what kind of USB suits you. The board expor
 # Software Instructions
 The software instructions can be found at [Ardupilot Wiki](https://github.com/juvinski/ardupilot_wiki/blob/pocket2/common/source/docs/common-pocketbeagle-2.rst).
 This version will be present in Ardupilot official wiki when the version 4.7 releases.
+
+and/or here [This Wiki Online](https://ardupilot.org/copter/docs/common-pocketbeagle2.html).
