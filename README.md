@@ -44,10 +44,6 @@ working order.
 ### Finished
 ![Board manufacturing](Images/board7.jpg)
 
-## Schematic
-The schematic can be found [here](Kicad_Files/PocketPilot2/PocketPilot2/PocketPilot2.kicad_sch) in a Kicad formatted
-.kicad_schematic file.
-
 ## Parts
 	- 1 IMU
 	- 4 Resistors 1KΩ
