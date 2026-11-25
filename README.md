@@ -19,6 +19,9 @@ There is an extlinux.conf file. In that file, one needs to place specific files 
 `/dev/spidev0.1`. The listed files will appear once the correct `.dtb` and `.dtbo` are in
 working order. 
 
+# This is a new rendition of the PCB Cape for the Pocket Beagle 2 that is untested
+## I have not made these PCB items available yet.
+![Photo of the Layout and Trace Work](Images/Pocket_2.png)
 
 # Board Images
 ## Board Only
