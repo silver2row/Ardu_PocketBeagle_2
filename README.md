@@ -14,7 +14,7 @@ I believe the same file can be used by other online, PCB manufactures.
 ### Can this Cape work? I am going throughout the motions now!
 There is an extlinux.conf file. In that file, one needs to place specific files in it. Files like a
 `.dtb` and `.dtbo` are needed to make sure the IMU is up and running via `/dev/spidev0.0` and
-`/dev/spidev0.1`. The listed files will appear once you push the correct `.dtb` and `.dtbo` are in
+`/dev/spidev0.1`. The listed files will appear once the correct `.dtb` and `.dtbo` are in
 working order. 
 
 
