@@ -3824,7 +3824,7 @@
 		)
 		(uuid "05f930d0-6c08-4a42-9d10-4814a5ce95fc")
 	)
-	(text "LEDs"
+	(text "LED"
 		(exclude_from_sim no)
 		(at 198.882 121.92 0)
 		(effects
