@@ -7,7 +7,16 @@ I'm using the PCBWay to produce the boards - Five boards have a cost of USD $5.0
 You can use [this file](Board_Archives_Manufacturing/PocketPilot2.kicad_pcb.zip).
 
 ## Other Services
-I believe the same file can be used by other online PCB manufactures.
+I believe the same file can be used by other online, PCB manufactures.
+
+# Testing
+## Finding what is wrong with the .dtbo and .dtb can be trying
+### Can this Cape work? I am going throughout the motions now!
+There is an extlinux.conf file. In that file, one needs to place specific files in it. Files like a
+`.dtb` and `.dtbo` are needed to make sure the IMU is up and running via `/dev/spidev0.0` and
+`/dev/spidev0.1`. The listed files will appear once you push the correct `.dtb` and `.dtbo` are in
+working order. 
+
 
 # Board Images
 ## Board Only
@@ -36,10 +45,11 @@ I believe the same file can be used by other online PCB manufactures.
 ![Board manufacturing](Images/board7.jpg)
 
 ## Schematic
-The schematic can be found [here](Schematic/PocketPilot2.pdf).
+The schematic can be found [here](Kicad_Files/PocketPilot2/PocketPilot2/PocketPilot2.kicad_sch) in a Kicad formatted
+.kicad_schematic file.
 
 ## Parts
-	- 1 IMU [GY-912]
+	- 1 IMU
 	- 4 Resistors 1KΩ
 	- 2 Resistors 10k 0.1%
 	- 2 Resistors 20k 0.1%
@@ -73,5 +83,5 @@ For the USB OTG, you are free to use what kind of USB suits you. The board expor
 *** 5v input to any pin will brick your PocketBeagle 2 ***
 
 # Software Instructions
-The software instructions can be found at [Ardupilot Wiki] (https://github.com/juvinski/ardupilot_wiki/blob/pocket2/common/source/docs/common-pocketbeagle-2.rst).
+The software instructions can be found at [Ardupilot Wiki](https://github.com/juvinski/ardupilot_wiki/blob/pocket2/common/source/docs/common-pocketbeagle-2.rst).
 This version will be present in Ardupilot official wiki when the version 4.7 releases.
