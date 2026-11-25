@@ -3,8 +3,9 @@ This project has an aim to run [Ardupilot](https://ardupilot.org/) on the [Pocke
 
 # Board manufacturing
 ## PCBWay
-I'm using the PCBWay to produce the boards - Five boards have a cost of USD $5.00 (things change with time)...
-You can use [this file](Board_Archives_Manufacturing/PocketPilot2.kicad_pcb.zip).
+I'm using the PCBWay company online to produce the boards - Five boards have a cost of USD $25.00 or around that
+amount (things change with time)...
+You can use [this file](Board_Archives_Manufacturing/Pocket2.kicad_pcb.zip).
 
 ## Other Services
 I believe the same file can be used by other online, PCB manufactures.
