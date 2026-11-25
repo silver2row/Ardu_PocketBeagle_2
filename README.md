@@ -45,13 +45,13 @@ working order.
 ![Board manufacturing](Images/board7.jpg)
 
 ## Parts
-	- 1 IMU
+	- 1 IMU [eight pin with BMP388 and ICM20948]
 	- 4 Resistors 1KΩ
 	- 2 Resistors 10k 0.1%
 	- 2 Resistors 20k 0.1%
 	- 3 Led Red, Blue and Green color 
 	- 1 BC547 NPN Transistor
-	- 1 I2C Digital [Power Module/Monitor]
+	- 1 I2C power module [Power Module/Monitor]
 	- 6 Pin header 1 x 5 straight
 	- 3 Pin header 1 x 4 straight
 	- 1 Pin header 1 x 6 straight
@@ -60,7 +60,7 @@ working order.
 	- 1 Pin header female 1 x 8 - optional
 
 ## Details
-To use the I2C power sensing, you can use the [Holybro PM2D](https://holybro.com/products/pm02d-power-module?srsltid=AfmBOoraJGVR_kFEiSwKRgzMLQZ1dEZXMhWgGvN6DEnkXQVvNgj2pTN2).
+To use the I2C power sensor, you can use the [Holybro PM2D](https://holybro.com/products/pm02d-power-module?srsltid=AfmBOoraJGVR_kFEiSwKRgzMLQZ1dEZXMhWgGvN6DEnkXQVvNgj2pTN2).
 The analog power sensing uses four resistors.
 The GY-912 is soldered directly over the board once the PocketBeagle 2 is over it and the space between the PocketBeagle 2 board and the DIY board is tight.
 Once the Kicad project is shared, you can modify freely according your needs!
