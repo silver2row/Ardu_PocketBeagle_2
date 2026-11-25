@@ -3860,7 +3860,7 @@
 		)
 		(uuid "3678a9ff-a4db-442c-93b7-4210e68aeab5")
 	)
-	(text "UARTs"
+	(text "UART"
 		(exclude_from_sim no)
 		(at 36.83 80.772 0)
 		(effects
@@ -3908,7 +3908,7 @@
 		)
 		(uuid "898f29dc-a9cf-4e8c-bfc4-cf7753df409b")
 	)
-	(text "5 Volts from BEC\nIf necessary"
+	(text "5v from BEC\nif necessary"
 		(exclude_from_sim no)
 		(at 119.888 120.396 0)
 		(effects
@@ -3920,7 +3920,7 @@
 		)
 		(uuid "8cc9d18b-571e-4cc7-94d2-74f3aacd6293")
 	)
-	(text "GPIOs"
+	(text "GPIO"
 		(exclude_from_sim no)
 		(at 244.602 80.264 0)
 		(effects
@@ -3932,7 +3932,7 @@
 		)
 		(uuid "baab8bed-f689-43d5-b6b1-ab757d73142f")
 	)
-	(text "PocketBeagle 2 Pins"
+	(text "Pocket Beagle 2"
 		(exclude_from_sim no)
 		(at 56.134 17.018 0)
 		(effects
@@ -11701,7 +11701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548"
+		(property "Value" "BC547"
 			(at 207.01 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
